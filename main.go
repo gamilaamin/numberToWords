@@ -9,7 +9,7 @@ var   (
 	tens = []string {"عشر","عشرون","ثلاثون","اربعوب","خمسون","ستون","سبعون","ثمانون","تسعون"}
 	hundreds = []string  {"مئه","مئتان","ثلاثمائه","اربعمائة","خمسمائة","ستمائة","سبعمائه","ثمانمائه","تسعمائه"}
 	thousands = []string  {"الف","الفان"}
-	millions = [] string {"مليون","مليار","بليون"}
+	millions = [] string {"مليون","مليار"}
 )
 func numToArabic(number int) string  {
 	var str string
